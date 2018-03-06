@@ -33,7 +33,7 @@ $grep -i 'python'  " will find the occurance of python in the given directory'
 $find ./ -name '*.py'  "will find all file which ends with .py extension'
 $ssh user.name@        " login to remote server"
 $cd -                  " go back to previous working dir"
-
+$man ls                " to know more about the ls command"
 ```
 
 ---
@@ -49,7 +49,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+```
+$ls            | will list the files in the current dir.
+$ls -a         | will list the hidden file.
+$ls -l         | will list detail information about the files such as permision, time, size etc
+$ls -lh        | will list size of the file in human readable format.
+$ls -lah       | will list hidden files with detail information
+$ls -t         | sort the file as time stamp
+$ls -Glp       | include color with the listing and \ after the directory name
+```
 
 ---
 
