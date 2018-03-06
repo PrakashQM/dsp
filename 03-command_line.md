@@ -21,9 +21,18 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 ```
-$pwd             | will print the working directory path    
-$mkdir sample_dir
-$rm -r sample_dir
+$pwd               " will print the working directory path   " 
+$mkdir sample_dir  " will make directory name sample_dir "
+$rm -r sample_dir  " will remove directory name sample_dir "
+$touch file_name   " will create an empty file nameed file_name"
+$rm file_name      " will delete the file file_name "
+$ls -lah           " will list all files even hidden files"
+$mv file_name old_file " will rename the file_name as old_file"
+$cp old_file new_file "will make copy of old_file as new_file"
+$grep -i 'python'  " will find the occurance of python in the given directory'
+$find ./ -name '*.py'  "will find all file which ends with .py extension'
+$ssh user.name@        " login to remote server"
+$cd -                  " go back to previous working dir"
 
 ```
 
