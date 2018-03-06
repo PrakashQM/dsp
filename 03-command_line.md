@@ -65,15 +65,19 @@ $ls -Glp       | include color with the listing and \ after the directory name
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -laht
+ls -S
 
 ---
 
 ### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
+```
+xargs allow Linux tool to accept arguments from standard input
+it is mostly used with find command
+find ./ -type f -name "*.out" | xargs rm
+alternatively
+find ./ -type f -name "*.out" -exec rm {} \; 
+```
 
