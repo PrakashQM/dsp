@@ -64,10 +64,10 @@ $ls -Glp       | include color with the listing and \ after the directory name
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
-
+```
 ls -laht
 ls -S
-
+```
 ---
 
 ### Q4.  Xargs   
