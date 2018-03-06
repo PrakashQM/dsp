@@ -125,7 +125,7 @@ Block code that is non-specific:
 print "hello world!"
 print "hello moon"
 ```
-put python after triple back quotes for python specific systax
+put __python__ after triple back quotes for python specific systax
 
 Block code that is **python**-specific:  
 ```{python}
