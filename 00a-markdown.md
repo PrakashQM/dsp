@@ -125,6 +125,7 @@ Block code that is non-specific:
 print "hello world!"
 print "hello moon"
 ```
+put python after triple back quotes for bash specific systax
 
 Block code that is **python**-specific:  
 ```{python}
@@ -140,6 +141,8 @@ $ git status
 $ git remote -v
 ```
 
+put console after triple back quotes for bash specific systax
+
 Block code that is **bash**-specific:  
 ```console
 $ git status
@@ -154,6 +157,10 @@ Block code that is non-specific:
 ```
 SELECT * FROM Customers WHERE Country='Sweden';
 ```
+---
+use sql after triple back quotes for sql specific systax
+
+---
 
 Block code that is **sql**-specific:  
 ```sql
