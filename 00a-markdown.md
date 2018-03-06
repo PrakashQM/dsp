@@ -36,7 +36,7 @@ Markdown is a simple way to add formatting — like headers, bold/italic text, a
 
 ---
 
-## [Line Breaks](section-a)
+## <a name="section-a"></a>1) Line Breaks
 
 **How to add line breaks:**  
 1.  add two spaces to end of line**   
