@@ -43,9 +43,16 @@ Markdown is a simple way to add formatting — like headers, bold/italic text, a
 2.  enclose text in triple back quotes 
 
 ---
-I am trying to add line breaks using two spaces to the end of the line.  
+Trying to add line breaks using two spaces to the end of the line.  
 Lets see if this worked.
 
+---
+```
+Trying to add line break using triple quotes
+Let see if this works
+```
+
+---
 ## <a name="section-b"></a>2) Text Formatting  
 
 bold: `**bold**`  **bold**  
