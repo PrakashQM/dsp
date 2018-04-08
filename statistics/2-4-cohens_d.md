@@ -32,4 +32,8 @@ firsts = live[live.birthord == 1]
 others = live[live.birthord != 1]
 
 Cohen_d(firsts.prglngth, others.prglngth)
+Cohen_d(firsts.totalwgt_lb, others.totalwgt_lb)
+
 ```
+
+Weight of first babies are 0.088672927072602006 lb lower than others while pregnancy length of first born is 0.028879044654449883 week higher than other babies.
