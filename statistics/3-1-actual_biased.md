@@ -33,5 +33,6 @@ print('Biased Mean :',biased_mean)
 ```
 
 Results :
+
     actual Mean : 1.02420515504
     Biased Mean : 2.40367910066
