@@ -31,3 +31,7 @@ biased_mean=biased.Mean()
 print ('actual Mean :',actual_mean)
 print('Biased Mean :',biased_mean)
 ```
+
+Results :
+    actual Mean : 1.02420515504
+    Biased Mean : 2.40367910066
